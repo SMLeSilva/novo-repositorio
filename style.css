@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+:root {
+    --bg: #ffffff;
+    --text: #0f172a;
+    --text-muted: #64748b;
+    --accent: #2563eb;
+    --section-gap: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+    padding: 40px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: var(--text);
+}
+
+section {
+    padding: var(--section-gap) 0;
+}
+
+h1 {
+    font-size: clamp(3rem, 10vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 30px;
+    letter-spacing: -3px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.atria-span {
+    color: var(--accent);
+}
+
+footer {
+    padding: 60px 0;
+    border-top: 1px solid #f1f5f9;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* Specific Section Adjustments */
+#home {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contato p {
+    font-size: 1.5rem;
+    color: var(--text);
+    font-weight: 500;
+}
+
+#contato a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+#contato a:hover {
+    border-bottom-color: var(--accent);
+}
