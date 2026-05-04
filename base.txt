@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atria | Capacitação Git & GitHub</title>
+    <meta name="description" content="Site institucional simples da Atria para capacitação em Git e GitHub.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">ATRIA</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container">
+                <h1>Bem-vindo à <span class="atria-span">Atria</span>.</h1>
+                <p>Nossa missão é capacitar desenvolvedores através do domínio de ferramentas essenciais de colaboração.</p>
+                <p>Prepare-se para explorar o universo do controle de versão com Git e GitHub.</p>
+            </div>
+        </section>
+
+        <!-- Sobre Section -->
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre a Capacitação</h2>
+                <p>A Atria acredita que a base de um bom software reside na colaboração eficiente. Neste encontro, focaremos na prática do Git, entendendo como gerenciar alterações, organizar branches e colaborar em repositórios remotos.</p>
+                <p>O objetivo é fornecer clareza técnica e segurança operacional para que você possa focar no que importa: escrever código de qualidade.</p>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato">
+            <div class="container">
+                <h2>Vamos conversar?</h2>
+                <p>Dúvidas sobre o conteúdo ou interesse em futuras turmas?</p>
+                <p>Mande um email para <a href="mailto:contato@atria.com">contato@atria.com</a></p>
+                <p>Ou acesse nosso <a href="https://github.com" target="_blank">GitHub</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Atria Capacitação. Simplicidade e eficiência.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
